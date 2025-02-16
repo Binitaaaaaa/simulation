@@ -69,15 +69,15 @@ A time series plot of the queue length provides a dynamic view of how the queue 
 
 The simulation successfully illustrates key traffic dynamics at an intersection:
 
-   **Variability in wait times:** Stemming from the random arrival process and fixed traffic light cycle.
-  **Queue fluctuations:** Showing accumulation during red phases and dissipation during green phases.
+   **Variability in wait times:** Stemming from the random arrival process and fixed traffic light cycle.<br />
+  **Queue fluctuations:** Showing accumulation during red phases and dissipation during green phases.<br />
 
 While the model is simplified (e.g., a single lane, fixed signal timing), it serves as a foundational framework. More sophisticated models could incorporate multiple lanes, adaptive signal timing, or interactions with pedestrian flows.
 
 ## 5. Conclusion
 
 This project demonstrates the use of discrete-event simulation to model traffic flow at a signalized intersection. Using SimPy, the simulation models vehicle arrivals and traffic light operations, capturing essential performance metrics such as waiting times and queue lengths. The visualizations provide clear insights into the traffic behavior under the assumed conditions.
-
+<br />
 Future work could extend this model to more complex traffic scenarios, such as intersections with variable timing, multi-lane roads, and networked intersections, thereby enhancing the model's realism and applicability to urban traffic management.
 
 ## 6.References
